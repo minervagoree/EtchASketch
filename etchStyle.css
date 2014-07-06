@@ -1,7 +1,11 @@
+body {
+	background-color: #EBEBFF;
+}
+
 #container {
 	position: relative;
-	height: 500px;
-	width: 800px;
+	height: 350px;
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -14,13 +18,28 @@
 
 }
 
+#title {
+	color: white;
+	text-align: center;
+	font-family: cursive,sans-serif;
+	background-color:	#001F7A;
+	border-bottom-color:#3333FF;
+	border-bottom-style: solid;
+	border-bottom-width: 1em;
+	box-shadow: yes;
+	padding-top: 10px;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+}
+
 .draw  {
+	overflow: hidden;
 	height: 20px;
 	width: 20px;
-	border: 1px solid;
+	border: 0.5px solid;
 	float: left;
-	background-color: #E8F0F0;
-	border-color: 	#D1E0E0;
+	background-color: 	#F7F7FF;
+	border-color:	#9999FF;
 	color: #E8F0F0;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -35,5 +54,31 @@
 .trail {
 	background-color: black;
 	color: black;
+}
+
+#buttons {
+	width: 600px;
+	text-align: center;
+}
+
+#clear, #new {
+	font-family: Cursive, sans-serif;
+	padding: 5px 20px 5px 20px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	background-color:		#D6D6FF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+
+#clear {
+	margin-left: 200px;
+}
+
+#new {
+	
 }
 

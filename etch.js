@@ -1,6 +1,6 @@
 /* Insert divs into etch a sketch */
 
-var divNumber = 1000;
+var divNumber = 100;
 //var divNumberSquared = divNumber * 2;
 
 $(document).ready(function() {
@@ -16,5 +16,15 @@ $(document).ready(function() {
 		$(this).addClass('trail');
 	});
 
+	
+	$('#clear, #new').click(function() {
+		if(this.id === "clear") {
+		 	$('.draw').removeClass('trail');
+        };
+        /*else if (this.id === "new") {
+
+        }; */
+
+	});
 
 });
