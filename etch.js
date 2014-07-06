@@ -8,6 +8,13 @@ $(document).ready(function() {
 		$('#etchBody').append('<div id="eachDiv' + i +' " class="draw">s</div>');
 	};
 
+	$('.draw').on('mouseenter', function() {
+		$(this).addClass('highlight');
+	});
+
+	$('.draw').on('mouseleave', function() {
+		$(this).addClass('trail');
+	});
 
 
 });
