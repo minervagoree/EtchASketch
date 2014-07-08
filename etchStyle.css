@@ -4,18 +4,16 @@ body {
 
 #container {
 	position: relative;
-	height: 350px;
-	width: 600px;
+	height: 400px;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 
 }
 
-#etchBody {
-	height: auto;
-	width: auto;
-
-
+tr, td {
+	padding: 0;
+	margin: 0;
 }
 
 #title {
@@ -32,17 +30,16 @@ body {
 	-moz-border-radius:10px;
 }
 
-.draw  {
+.draw {
+	position: relative;
+	text-align: center;
 	overflow: hidden;
 	height: 20px;
 	width: 20px;
-	border: 0.5px solid;
-	float: left;
+	border: 1px;
 	background-color: 	#F7F7FF;
 	border-color:	#9999FF;
 	color: #E8F0F0;
-	border-radius: 2px;
-	-moz-border-radius: 2px;
 }
 
 .draw:hover {
@@ -57,28 +54,20 @@ body {
 }
 
 #buttons {
-	width: 600px;
+
 	text-align: center;
 }
 
-#clear, #new {
+#clear{
 	font-family: Cursive, sans-serif;
-	padding: 5px 20px 5px 20px; 
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 20px;
+	padding: 5px 30px 5px 30px; 
 	margin-bottom: 30px;
 	margin-top: 30px;
-	background-color:		#D6D6FF;
+	background-color:#D6D6FF;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 }
 
 
-#clear {
-	margin-left: 200px;
-}
-
-#new {
-	
-}
 
